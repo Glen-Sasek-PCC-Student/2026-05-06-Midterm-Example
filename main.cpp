@@ -21,10 +21,10 @@
 // (Optional) Additional tests count:
 
 // ------------- CODE -------------
-#include <iostream>
-#include <string>
-#include <limits> // NOT <climits> for cin.ignore(numeric_limits<streamsize>::max(), '\n');
-#include <iomanip>
+#include <iostream>  // https://en.cppreference.com/w/cpp/header/iostream
+#include <string>    // https://en.cppreference.com/w/cpp/header/string
+#include <limits>    // https://en.cppreference.com/w/cpp/header/limits (NOT <climits> for cin.ignore(numeric_limits<streamsize>::max(), '\n');)
+#include <iomanip>   // https://en.cppreference.com/w/cpp/header/iomanip
 
 // RUN AND TEST COMMAND
 // cd _midterm // Or the directory containing these files
@@ -172,7 +172,7 @@ int main()
   {
     results = player_C_name + " is first, " + player_A_name + " is second, " + player_B_name + " is third.";
   }
-  
+
   // c     b      a
   else if(player_C_count > player_B_count and player_B_count > player_A_count)
   {
