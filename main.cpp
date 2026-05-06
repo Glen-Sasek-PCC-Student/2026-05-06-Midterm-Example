@@ -100,7 +100,7 @@ int main()
   // a and b and c
   if (player_A_count == player_B_count and player_B_count == player_C_count)
   {
-    results = player_A_name + " and " + player_B_name + " and " + player_C_name + " are in a threee way tie for first.";
+    results = player_A_name + " and " + player_B_name + " and " + player_C_name + " are in a three way tie for first.";
   }
 
   // Two way ties for first
